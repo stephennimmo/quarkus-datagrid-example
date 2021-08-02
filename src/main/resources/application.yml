@@ -1,0 +1,7 @@
+# Infinispan Server address
+quarkus:
+  infinispan-client:
+    server-list: localhost:11222
+    auth-username: admin
+    auth-password: password
+    client-intelligence: BASIC
